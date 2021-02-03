@@ -176,6 +176,9 @@ body{
     .picture{
         display: none;
     }
+    .infos{
+        width: 100%;
+    }
     .bio-header{
         display: flex;
         flex-direction: column;
