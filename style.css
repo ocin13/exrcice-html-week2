@@ -12,7 +12,7 @@ body{
 }
 .main-container{
     padding: 40px 30px;
-    width: 100%;
+    width: 95%;
 }
 .biography{
     display: flex;
@@ -51,19 +51,22 @@ body{
 }
 .bio-footer{
     padding: 0 20px;
+    width: 100%;
 }
 .resume-info{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
 }
 .right-box{
     display: flex;
     flex-direction: column;
     width: 65%;
+    
 }
 .left-box{
-    width: 25%;
+    width: 28%;
     padding:20px 20px;
 }
 .main-box{
@@ -162,10 +165,13 @@ body{
 @media only screen and (max-width: 600px) {
     .right-box{
         width: 100%;
-        border-bottom: 2px solid rgb(170, 166, 166);
+        border-top: 2px solid rgb(170, 166, 166);
+        padding: 20px 0;
+        order: 2;
     }
     .left-box{
         width: 100%;
+        order: 1;
     }
     .picture{
         display: none;
